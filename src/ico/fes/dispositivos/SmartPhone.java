@@ -72,7 +72,12 @@ public class SmartPhone {
         System.out.println("encendiendo el equipo"+ this.marca);
         return true;
     }
-    
+    /**
+     * El método llamar simula el funcionamiento del programa de telefono
+     * smartPhone, esto gracias a la posiblidad de la abstraccion.
+     * @param numeroDestino número a llamar
+     * @return int que representa el numero de destino
+     */
     public int llamar(int numeroDestino){
         System.out.println("Llamando al numero... "+ numeroDestino);
         return 60;
