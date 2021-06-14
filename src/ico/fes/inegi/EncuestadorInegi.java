@@ -26,6 +26,9 @@ public class EncuestadorInegi {
     public void setDispositivo(SmartPhone cel2) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+
+    }
     
     
-}
+
